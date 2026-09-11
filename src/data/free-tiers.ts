@@ -174,4 +174,5 @@ export const freeTiers: Record<string, LocalizedFreeTier> = {
   "Qdrant Cloud": { en: "Permanent free cluster: 0.5 vCPU, 1 GB RAM, and 4 GB disk space storing up to 1M vectors.", es: "Clúster gratis permanente: 0.5 vCPU, 1 GB de RAM y 4 GB de disco para almacenar hasta 1 M de vectores." },
   "Surge.sh": { en: "Free plan: Unlimited projects, unlimited publishes, custom domains, and automatic SSL on surge.sh domains.", es: "Plan gratis: Proyectos y publicaciones ilimitados, dominios propios y SSL automático en dominios surge.sh." },
   "Snyk": { en: "Free plan: 400 open-source (SCA) tests/month, 100 code (SAST) tests/month, and 100 container tests/month.", es: "Plan gratis: 400 análisis open source (SCA)/mes, 100 análisis de código (SAST)/mes y 100 análisis de contenedores/mes." },
+  "Cronitor": { en: "Hacker plan: 5 monitors, 5-minute check frequency, 1 public status page with 50 subscribers, and Slack/email alerts.", es: "Plan Hacker: 5 monitores, checks cada 5 minutos, 1 página de estado con 50 suscriptores y alertas por Slack y email." },
 }
