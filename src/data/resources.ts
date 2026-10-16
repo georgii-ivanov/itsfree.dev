@@ -22,7 +22,7 @@ export interface Resource {
   featured?: boolean
 }
 
-export const sourceReviewedAt = "2026-08-27"
+export const sourceReviewedAt = "2026-10-17"
 
 export const categories: Category[] = [
   { id: "hosting", icon: "cloud-computing", name: { en: "Hosting & deploy", es: "Hosting y deploy" } },
@@ -120,17 +120,17 @@ const pricingUrls: Record<string, string> = {
   "Microsoft Clarity": "https://clarity.microsoft.com/pricing",
   "Axiom": "https://axiom.co/pricing",
   "Pipedream": "https://pipedream.com/docs/pricing",
-  "Flagsmith": "https://flagsmith.com/pricing/",
+  "Flagsmith": "https://www.flagsmith.com/pricing",
   "Beeceptor": "https://beeceptor.com/pricing",
   "MockAPI": "https://mockapi.io/pricing",
-  "Mockoon": "https://mockoon.com/pricing/",
+  "Mockoon": "https://mockoon.com/what-is-mockoon/",
   "Abstract API": "https://www.abstractapi.com/api",
   "IPinfo": "https://ipinfo.io/pricing",
   "IPQuery": "https://ipquery.io/",
   "DummyJSON": "https://dummyjson.com/docs",
   "JSONPlaceholder": "https://jsonplaceholder.typicode.com/guide/",
   "Cloudflare Browser Run": "https://developers.cloudflare.com/browser-run/pricing/",
-  "Webhook.site": "https://webhook.site/pricing",
+  "Webhook.site": "https://docs.webhook.site/pro.html",
   "Open-Meteo": "https://open-meteo.com/en/pricing",
   "OpenGraph.to": "https://www.opengraph.to/api",
   "Hoppscotch": "https://hoppscotch.com/pricing",
@@ -163,17 +163,17 @@ const pricingUrls: Record<string, string> = {
   "ImageKit": "https://imagekit.io/plans",
   "Backblaze B2": "https://www.backblaze.com/cloud-storage/pricing",
   "UploadThing": "https://uploadthing.com/pricing",
-  "TinyPNG": "https://tinify.com/pricing",
+  "TinyPNG": "https://tinypng.com/pricing/api",
   "Filestack": "https://www.filestack.com/pricing/",
   "TiDB Cloud": "https://www.pingcap.com/pricing/",
   "Convex": "https://www.convex.dev/pricing",
   "Qdrant Cloud": "https://qdrant.tech/pricing/",
   "Surge.sh": "https://surge.sh/pricing",
-  "Snyk": "https://snyk.io/pricing/",
+  "Snyk": "https://snyk.io/plans/",
   "Cronitor": "https://cronitor.io/pricing",
   "GlitchTip": "https://glitchtip.com/pricing",
   "Smee.io": "https://smee.io",
-  "Reqres": "https://reqres.in/",
+  "Reqres": "https://reqres.in/#pricing",
   "Transform.tools": "https://transform.tools",
   "Scalar": "https://scalar.com/pricing",
   "Plunk": "https://useplunk.com/pricing",
@@ -182,7 +182,7 @@ const pricingUrls: Record<string, string> = {
   "Aptabase": "https://aptabase.com/pricing",
   "Lucide Icons": "https://lucide.dev/license",
   "Ray.so": "https://ray.so",
-  "SVGOMG": "https://svgomg.net",
+  "SVGOMG": "https://jakearchibald.github.io/svgomg/",
   "Shields.io": "https://shields.io",
   "Can I Use": "https://caniuse.com",
 }
@@ -324,7 +324,7 @@ const resourceCatalog: Omit<Resource, "slug" | "pricingUrl" | "freeTier" | "acce
   { name: "Stitch", url: "https://stitch.withgoogle.com/", faviconFile: "stitch.withgoogle.com.webp", category: "design", tags: ["ai", "ui", "frontend"], description: { en: "Turn text prompts, images and wireframes into UI designs, frontend code and editable Figma work.", es: "Convierte prompts, imágenes y wireframes en diseños UI, código frontend y trabajo editable en Figma." } },
   { name: "Lucide Icons", url: "https://lucide.dev", faviconFile: "lucide.dev.png", category: "design", tags: ["icons", "open source", "svg"], description: { en: "Community-driven open-source icon set with thousands of clean, customizable SVG icons and framework packages.", es: "Conjunto de iconos open source impulsado por la comunidad con miles de iconos SVG limpios y paquetes para frameworks." } },
   { name: "Ray.so", url: "https://ray.so", faviconFile: "ray.so.png", category: "design", tags: ["code snippets", "images", "sharing"], description: { en: "Generate beautiful, high-resolution syntax-highlighted images of your code snippets for docs and social media.", es: "Genera imágenes atractivas y en alta resolución con resaltado de sintaxis para tus fragmentos de código." } },
-  { name: "SVGOMG", url: "https://svgomg.net", faviconFile: "svgomg.net.png", category: "design", tags: ["svg", "optimization", "web tool"], description: { en: "Web-based GUI for SVGO to optimize and strip bloat from SVG images directly in the browser.", es: "Interfaz web para SVGO que permite optimizar y limpiar archivos SVG directamente en el navegador." } },
+  { name: "SVGOMG", url: "https://jakearchibald.github.io/svgomg/", faviconFile: "svgomg.png", category: "design", tags: ["svg", "optimization", "web tool"], description: { en: "Web-based GUI for SVGO to optimize and strip bloat from SVG images directly in the browser.", es: "Interfaz web para SVGO que permite optimizar y limpiar archivos SVG directamente en el navegador." } },
 
   // Security
   { name: "GitGuardian", url: "https://www.gitguardian.com", category: "security", tags: ["secrets", "git", "scanning"], description: { en: "Detect exposed secrets in source code and guide their remediation.", es: "Detecta secretos expuestos en el código y guía su corrección." } },
@@ -354,7 +354,7 @@ const resourceCatalog: Omit<Resource, "slug" | "pricingUrl" | "freeTier" | "acce
   { name: "Cloudinary", url: "https://cloudinary.com", category: "media", featured: true, tags: ["images", "video", "cdn"], description: { en: "Upload, transform, optimize and deliver images and video through a CDN.", es: "Sube, transforma, optimiza y entrega imágenes y vídeo mediante CDN." } },
   { name: "Uploadcare", url: "https://uploadcare.com", category: "media", tags: ["uploads", "images", "cdn"], description: { en: "File uploads, image processing and adaptive delivery for web apps.", es: "Subida de archivos, procesado de imágenes y entrega adaptativa." } },
   { name: "ImageKit", url: "https://imagekit.io", category: "media", tags: ["images", "optimization", "cdn"], description: { en: "Real-time image and video optimization, transformation and delivery.", es: "Optimización, transformación y entrega de imagen y vídeo en tiempo real." } },
-  { name: "Backblaze B2", url: "https://www.backblaze.com/cloud-storage", faviconFile: "backblaze.com.png", category: "media", tags: ["storage", "s3", "cloud"], description: { en: "S3-compatible cloud object storage with 10 GB free storage and free daily download bandwidth.", es: "Almacenamiento de objetos cloud compatible con S3 con 10 GB gratis y descarga diaria gratuita." } },
+  { name: "Backblaze B2", url: "https://www.backblaze.com/cloud-storage", faviconFile: "backblaze.com.png", category: "media", tags: ["storage", "s3", "cloud"], description: { en: "S3-compatible cloud object storage with the first 10 GB free and low-cost egress.", es: "Almacenamiento de objetos cloud compatible con S3 con los primeros 10 GB gratis y salida de datos económica." } },
   { name: "UploadThing", url: "https://uploadthing.com", faviconFile: "uploadthing.com.png", category: "media", tags: ["uploads", "nextjs", "storage"], description: { en: "File uploads for modern full-stack web applications with native framework SDKs.", es: "Subida de archivos para aplicaciones full-stack modernas con SDKs nativos para frameworks." } },
   { name: "TinyPNG", url: "https://tinypng.com", faviconFile: "tinypng.com.png", category: "media", tags: ["compression", "images", "api"], description: { en: "Smart lossy compression API to compress WebP, PNG and JPEG images on the fly.", es: "API de compresión inteligente con pérdida para optimizar imágenes WebP, PNG y JPEG al vuelo." } },
   { name: "Filestack", url: "https://www.filestack.com", faviconFile: "filestack.com.png", category: "media", tags: ["uploads", "transformations", "cdn"], description: { en: "File uploader, transformation API, and CDN delivery for web and mobile applications.", es: "Subida de archivos, API de transformaciones y entrega por CDN para aplicaciones web y móviles." } },
