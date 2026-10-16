@@ -92,6 +92,7 @@ const pricingUrls: Record<string, string> = {
   "Formspree": "https://formspree.io/plans",
   "Tally": "https://tally.so/pricing",
   "Web3Forms": "https://web3forms.com/pricing",
+  "BootForm": "https://bootform.com/pricing",
   "Sentry": "https://sentry.io/pricing/",
   "Better Stack": "https://betterstack.com/pricing",
   "Grafana Cloud": "https://grafana.com/pricing/",
@@ -220,6 +221,7 @@ const resourceCatalog: Omit<Resource, "slug" | "pricingUrl" | "freeTier" | "acce
   { name: "Formspree", url: "https://formspree.io", category: "email", tags: ["forms", "static", "email"], description: { en: "Add a reliable form backend to any site without writing server code.", es: "Añade un backend fiable para formularios sin escribir código de servidor." } },
   { name: "Tally", url: "https://tally.so", category: "email", tags: ["forms", "no-code", "surveys"], description: { en: "Create flexible forms and surveys with a generous free plan.", es: "Crea formularios y encuestas flexibles con un plan gratuito generoso." } },
   { name: "Web3Forms", url: "https://web3forms.com", category: "email", tags: ["forms", "api", "static"], description: { en: "Receive static-site form submissions directly in your inbox through an API.", es: "Recibe formularios de sitios estáticos en tu email mediante una API." } },
+  { name: "BootForm", url: "https://bootform.com", category: "email", tags: ["forms", "static", "mcp"], description: { en: "Form backend for static sites: point a form at a URL, and an MCP server lets AI agents set forms up.", es: "Backend de formularios para sitios estáticos: apunta un formulario a una URL, y un servidor MCP permite a agentes de IA configurarlos." } },
 
   // Observability
   { name: "Sentry", url: "https://sentry.io", category: "observability", featured: true, tags: ["errors", "tracing", "replay"], description: { en: "Track errors, performance traces and user sessions across your stack.", es: "Monitoriza errores, trazas de rendimiento y sesiones en todo tu stack." } },
