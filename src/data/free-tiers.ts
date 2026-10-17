@@ -26,13 +26,7 @@ export const accessRequirements: Partial<Record<string, AccessRequirement>> = {
   "Mozilla Observatory": "no-signup",
   "Have I Been Pwned": "no-signup",
   "Webhook.site": "no-signup",
-  "Mockoon": "no-signup",
-  "Can I Use": "no-signup",
   "Shields.io": "no-signup",
-  "SVGOMG": "no-signup",
-  "Ray.so": "no-signup",
-  "Lucide Icons": "no-signup",
-  "Transform.tools": "no-signup",
   "Smee.io": "no-signup",
 }
 
@@ -142,7 +136,6 @@ export const freeTiers: Record<string, LocalizedFreeTier> = {
   "Hoppscotch": { en: "The web client and self-hosted Community Edition are free; cloud collaboration has a free personal workspace.", es: "El cliente web y Community self-hosted son gratis; el cloud incluye un workspace personal gratuito." },
   "Cloudflare Browser Run": { en: "Workers Free: 10 minutes of browser time/day and 3 concurrent browsers; crawl is limited to 5 jobs/day and 100 pages.", es: "Workers Free: 10 minutos de navegador/día y 3 navegadores simultáneos; el crawl se limita a 5 jobs/día y 100 páginas." },
   "Webhook.site": { en: "Free: instant unique URL and email to inspect HTTP requests in the browser with no registration; URLs expire after 7 days and accept a limited number of requests.", es: "Gratis: URL y email únicos al instante para inspeccionar peticiones HTTP en el navegador sin registro; las URLs caducan a los 7 días y aceptan un número limitado de peticiones." },
-  "Mockoon": { en: "Free forever: 100% open-source local application and CLI with unlimited routes, mocks, rules and proxying without an account.", es: "Gratis para siempre: aplicación local y CLI 100% open source con rutas, mocks, reglas y proxy ilimitados sin necesidad de cuenta." },
   "Flagsmith": { en: "Free: 50,000 requests/month, unlimited feature flags and environments, 1 project and 1 team member; the open-source version can be self-hosted for free.", es: "Gratis: 50.000 peticiones/mes, feature flags y entornos ilimitados, 1 proyecto y 1 miembro; la versión open source se puede autoalojar gratis." },
 
   "Figma": { en: "Starter: unlimited drafts, UI kits and collaborators, with 3 collaborative design files and 3 FigJam files.", es: "Starter: borradores, kits y colaboradores ilimitados, con 3 archivos de diseño y 3 de FigJam compartidos." },
@@ -191,15 +184,10 @@ export const freeTiers: Record<string, LocalizedFreeTier> = {
   "GlitchTip": { en: "Hosted free tier: 1,000 events/month (errors, uptime checks and transactions combined), unlimited projects and team members, with email and webhook alerts.", es: "Plan alojado gratis: 1.000 eventos/mes (errores, checks de uptime y transacciones en conjunto), proyectos y miembros ilimitados, con alertas por email y webhook." },
   "Smee.io": { en: "Free and open source: instant webhook forwarding URL with no account or sign-up, meant for development rather than production.", es: "Gratis y open source: URL de reenvío de webhooks al instante sin cuenta ni registro, pensada para desarrollo y no para producción." },
   "Reqres": { en: "Free tier: 250 requests/day, a mock API with no sign-up, plus a free backend with full CRUD, 3 collections, 100 records and 1-day request logs.", es: "Plan gratis: 250 peticiones/día, API de prueba sin registro y un backend gratis con CRUD completo, 3 colecciones, 100 registros y 1 día de logs." },
-  "Transform.tools": { en: "Free and open source: dozens of code converters for JSON, SVG, GraphQL, TypeScript and more, with no registration required.", es: "Gratis y open source: decenas de conversores de código para JSON, SVG, GraphQL, TypeScript y más, sin necesidad de registro." },
   "Scalar": { en: "Open-source (MIT) API references and API client, free to self-host or embed; the hosted Free plan covers up to 3 APIs, 1 SDK (25 endpoints) and 1 editor.", es: "API references y cliente de API open source (MIT), gratis para autoalojar o embeber; el plan Free alojado cubre hasta 3 APIs, 1 SDK (25 endpoints) y 1 editor." },
   "Plunk": { en: "Free plan: 1,000 emails per month, unlimited contacts, automated event workflows, and full API access.", es: "Plan gratis: 1.000 emails al mes, contactos ilimitados, workflows automatizados y acceso completo a la API." },
   "Courier": { en: "Developer plan: 10,000 sends/month across all channels, with journeys, broadcasts, SDKs and 7-day log retention.", es: "Plan Developer: 10.000 envíos/mes en todos los canales, con journeys, broadcasts, SDKs y 7 días de logs." },
   "Loops": { en: "Free plan: up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days, with API access, workflows and custom domains.", es: "Plan gratis: hasta 1.000 contactos suscritos y 4.000 envíos cada 30 días, con API, workflows y dominios propios." },
   "Aptabase": { en: "Free cloud plan: 20,000 events/month, unlimited applications, real-time insights, and choice of EU or US data centers.", es: "Plan cloud gratis: 20.000 eventos al mes, aplicaciones ilimitadas, métricas en tiempo real y centros de datos en la UE o EE.UU." },
-  "Lucide Icons": { en: "Free and open source (ISC): 1,850+ vector icons with npm packages, SVG downloads and CDN access.", es: "Gratis y open source (ISC): más de 1.850 iconos vectoriales con paquetes npm, descargas SVG y CDN." },
-  "Ray.so": { en: "Free web app: unlimited high-resolution PNG and SVG exports with no registration required.", es: "Web gratis: exportaciones ilimitadas en PNG de alta resolución y SVG sin necesidad de registro." },
-  "SVGOMG": { en: "Free and open source: in-browser SVG optimization powered by SVGO that works offline and needs no sign-up.", es: "Gratis y open source: optimización de SVG en el navegador con SVGO, funciona offline y sin registro." },
   "Shields.io": { en: "Free and open source: hosted badges for hundreds of services, custom JSON endpoints and dynamic badges with no sign-up required.", es: "Gratis y open source: badges para cientos de servicios, endpoints JSON personalizados y badges dinámicos sin registro." },
-  "Can I Use": { en: "Free public reference: interactive browser compatibility tables and open data (CC BY 4.0) with no account required.", es: "Referencia pública gratuita: tablas interactivas de compatibilidad entre navegadores y datos abiertos (CC BY 4.0) sin necesidad de cuenta." },
 }

@@ -126,7 +126,6 @@ const pricingUrls: Record<string, string> = {
   "Flagsmith": "https://www.flagsmith.com/pricing",
   "Beeceptor": "https://beeceptor.com/pricing",
   "MockAPI": "https://mockapi.io/pricing",
-  "Mockoon": "https://mockoon.com/what-is-mockoon/",
   "Abstract API": "https://www.abstractapi.com/api",
   "IPinfo": "https://ipinfo.io/pricing",
   "IPQuery": "https://ipquery.io/",
@@ -179,17 +178,12 @@ const pricingUrls: Record<string, string> = {
   "GlitchTip": "https://glitchtip.com/pricing",
   "Smee.io": "https://smee.io",
   "Reqres": "https://reqres.in/#pricing",
-  "Transform.tools": "https://transform.tools",
   "Scalar": "https://scalar.com/pricing",
   "Plunk": "https://useplunk.com/pricing",
   "Courier": "https://www.courier.com/pricing/",
   "Loops": "https://loops.so/pricing",
   "Aptabase": "https://aptabase.com/pricing",
-  "Lucide Icons": "https://lucide.dev/license",
-  "Ray.so": "https://ray.so",
-  "SVGOMG": "https://jakearchibald.github.io/svgomg/",
   "Shields.io": "https://shields.io",
-  "Can I Use": "https://caniuse.com",
 }
 
 const resourceCatalog: Omit<Resource, "slug" | "pricingUrl" | "freeTier" | "accessRequirement">[] = [
@@ -286,7 +280,6 @@ const resourceCatalog: Omit<Resource, "slug" | "pricingUrl" | "freeTier" | "acce
   { name: "Jules", url: "https://jules.google/", faviconFile: "jules.google.webp", category: "ci", tags: ["coding agent", "github", "gemini"], description: { en: "An asynchronous coding agent that works on real tasks in GitHub repositories and prepares changes for review.", es: "Agente de programación asíncrono que resuelve tareas reales en repositorios de GitHub y prepara los cambios para revisarlos." } },
   { name: "Azure DevOps", url: "https://azure.microsoft.com/en-us/products/devops/", faviconFile: "azure.microsoft.com.svg", category: "ci", tags: ["git", "pipelines", "boards"], description: { en: "Git repos, Agile boards, CI/CD pipelines and package feeds in one Microsoft platform.", es: "Repos Git, tableros ágiles, pipelines CI/CD y feeds de paquetes en una plataforma de Microsoft." } },
   { name: "Shields.io", url: "https://shields.io", faviconFile: "shields.io.png", category: "ci", tags: ["badges", "svg", "readme"], description: { en: "Pixel-perfect concise status badges in SVG and raster formats for open-source repositories and dashboards.", es: "Insignias de estado concisas en SVG y mapa de bits para repositorios open source y paneles de control." } },
-  { name: "Can I Use", url: "https://caniuse.com", faviconFile: "caniuse.com.png", category: "ci", tags: ["compatibility", "browsers", "standards"], description: { en: "Up-to-date browser support tables for modern desktop and mobile front-end web technologies.", es: "Tablas actualizadas de compatibilidad entre navegadores web de escritorio y móviles para tecnologías frontend." } },
 
   // Analytics
   { name: "PostHog", url: "https://posthog.com", category: "analytics", tags: ["product", "replay", "experiments"], description: { en: "Product analytics, session replay, feature flags and experiments together.", es: "Analítica de producto, replay, feature flags y experimentos en un sitio." } },
@@ -314,11 +307,9 @@ const resourceCatalog: Omit<Resource, "slug" | "pricingUrl" | "freeTier" | "acce
   { name: "Hoppscotch", url: "https://hoppscotch.io", category: "api", tags: ["api client", "graphql", "realtime"], description: { en: "A fast web API client for REST, GraphQL and realtime protocols.", es: "Cliente web rápido para APIs REST, GraphQL y protocolos realtime." } },
   { name: "Cloudflare Browser Run", url: "https://developers.cloudflare.com/browser-run/", faviconFile: "cloudflare.com.webp", category: "api", tags: ["scraping", "headless", "automation"], description: { en: "Run headless Chrome on Cloudflare's network to scrape, screenshot, crawl and extract page content as HTML, Markdown or JSON.", es: "Ejecuta Chrome headless en la red de Cloudflare para scrapear, capturar, crawlear y extraer contenido como HTML, Markdown o JSON." } },
   { name: "Webhook.site", url: "https://webhook.site", faviconFile: "webhook.site.png", category: "api", tags: ["webhooks", "testing", "debug"], description: { en: "Instantly receive, inspect and debug incoming HTTP webhooks and requests in real time without creating an account.", es: "Recibe, inspecciona y depura webhooks y peticiones HTTP entrantes en tiempo real sin crear una cuenta." } },
-  { name: "Mockoon", url: "https://mockoon.com", faviconFile: "mockoon.com.svg", category: "api", tags: ["mock", "local", "open source"], description: { en: "Open-source desktop application and CLI to design and run realistic mock APIs locally in seconds.", es: "Aplicación de escritorio y CLI open source para diseñar y ejecutar APIs mock realistas en local en segundos." } },
   { name: "Flagsmith", url: "https://flagsmith.com", faviconFile: "flagsmith.com.png", category: "api", tags: ["feature flags", "remote config", "open source"], description: { en: "Feature flags and remote configuration platform with hosted cloud and self-hostable open-source options.", es: "Plataforma de feature flags y configuración remota con nube alojada y opción open source self-hosted." } },
   { name: "Smee.io", url: "https://smee.io", faviconFile: "smee.io.png", category: "api", tags: ["webhooks", "proxy", "local"], description: { en: "Webhook payload delivery service that proxies webhooks directly to your local development environment.", es: "Servicio que reenvía payloads de webhooks directamente a tu entorno de desarrollo local." } },
   { name: "Reqres", url: "https://reqres.in", faviconFile: "reqres.in.png", category: "api", tags: ["mock", "rest", "prototyping"], description: { en: "Hosted REST API simulating real CRUD operations and JSON responses for front-end prototyping.", es: "API REST alojada que simula operaciones CRUD reales y respuestas JSON para prototipar frontends." } },
-  { name: "Transform.tools", url: "https://transform.tools", faviconFile: "transform.tools.png", category: "api", tags: ["converter", "code generation", "utilities"], description: { en: "Polyglot web converter turning JSON, HTML, CSS, and GraphQL into TypeScript, JSX, Go structs, and more.", es: "Conversor web multilingüe que transforma JSON, HTML, CSS y GraphQL a TypeScript, JSX, structs de Go y más." } },
   { name: "Scalar", url: "https://scalar.com", faviconFile: "scalar.com.png", category: "api", tags: ["openapi", "docs", "testing"], description: { en: "Modern, interactive API documentation generator and REST client supporting OpenAPI and Swagger specifications.", es: "Generador moderno e interactivo de documentación de APIs y cliente REST compatible con OpenAPI y Swagger." } },
   { name: "AnyHook", url: "https://anyhook.net", category: "api", tags: ["webhooks", "retries", "logs"], description: { en: "Take delivery of inbound webhooks without running your own endpoint: retries, event log and replay.", es: "Recibe webhooks entrantes sin montar tu propio endpoint: reintentos, registro de eventos y reenvío." } },
 
@@ -330,9 +321,6 @@ const resourceCatalog: Omit<Resource, "slug" | "pricingUrl" | "freeTier" | "acce
   { name: "tldraw", url: "https://www.tldraw.com", faviconFile: "https://www.tldraw.com/favicon.ico", category: "design", tags: ["whiteboard", "infinite canvas", "sdk"], description: { en: "A fast collaborative infinite canvas plus a React SDK for building custom canvas experiences.", es: "Un lienzo infinito colaborativo y rápido, más un SDK de React para crear experiencias de canvas." } },
   { name: "Fontshare", url: "https://www.fontshare.com", category: "design", tags: ["fonts", "typography", "assets"], description: { en: "A growing collection of professional fonts free for personal and commercial use.", es: "Colección de fuentes profesionales gratis para uso personal y comercial." } },
   { name: "Stitch", url: "https://stitch.withgoogle.com/", faviconFile: "stitch.withgoogle.com.webp", category: "design", tags: ["ai", "ui", "frontend"], description: { en: "Turn text prompts, images and wireframes into UI designs, frontend code and editable Figma work.", es: "Convierte prompts, imágenes y wireframes en diseños UI, código frontend y trabajo editable en Figma." } },
-  { name: "Lucide Icons", url: "https://lucide.dev", faviconFile: "lucide.dev.png", category: "design", tags: ["icons", "open source", "svg"], description: { en: "Community-driven open-source icon set with thousands of clean, customizable SVG icons and framework packages.", es: "Conjunto de iconos open source impulsado por la comunidad con miles de iconos SVG limpios y paquetes para frameworks." } },
-  { name: "Ray.so", url: "https://ray.so", faviconFile: "ray.so.png", category: "design", tags: ["code snippets", "images", "sharing"], description: { en: "Generate beautiful, high-resolution syntax-highlighted images of your code snippets for docs and social media.", es: "Genera imágenes atractivas y en alta resolución con resaltado de sintaxis para tus fragmentos de código." } },
-  { name: "SVGOMG", url: "https://jakearchibald.github.io/svgomg/", faviconFile: "svgomg.png", category: "design", tags: ["svg", "optimization", "web tool"], description: { en: "Web-based GUI for SVGO to optimize and strip bloat from SVG images directly in the browser.", es: "Interfaz web para SVGO que permite optimizar y limpiar archivos SVG directamente en el navegador." } },
 
   // Security
   { name: "GitGuardian", url: "https://www.gitguardian.com", category: "security", tags: ["secrets", "git", "scanning"], description: { en: "Detect exposed secrets in source code and guide their remediation.", es: "Detecta secretos expuestos en el código y guía su corrección." } },
