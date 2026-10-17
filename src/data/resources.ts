@@ -120,6 +120,7 @@ const pricingUrls: Record<string, string> = {
   "Cloudflare Web Analytics": "https://developers.cloudflare.com/web-analytics/",
   "Microsoft Clarity": "https://clarity.microsoft.com/pricing",
   "Axiom": "https://axiom.co/pricing",
+  "AnyHook": "https://anyhook.net/pricing",
   "Pipedream": "https://pipedream.com/docs/pricing",
   "Flagsmith": "https://www.flagsmith.com/pricing",
   "Beeceptor": "https://beeceptor.com/pricing",
@@ -315,6 +316,7 @@ const resourceCatalog: Omit<Resource, "slug" | "pricingUrl" | "freeTier" | "acce
   { name: "Reqres", url: "https://reqres.in", faviconFile: "reqres.in.png", category: "api", tags: ["mock", "rest", "prototyping"], description: { en: "Hosted REST API simulating real CRUD operations and JSON responses for front-end prototyping.", es: "API REST alojada que simula operaciones CRUD reales y respuestas JSON para prototipar frontends." } },
   { name: "Transform.tools", url: "https://transform.tools", faviconFile: "transform.tools.png", category: "api", tags: ["converter", "code generation", "utilities"], description: { en: "Polyglot web converter turning JSON, HTML, CSS, and GraphQL into TypeScript, JSX, Go structs, and more.", es: "Conversor web multilingüe que transforma JSON, HTML, CSS y GraphQL a TypeScript, JSX, structs de Go y más." } },
   { name: "Scalar", url: "https://scalar.com", faviconFile: "scalar.com.png", category: "api", tags: ["openapi", "docs", "testing"], description: { en: "Modern, interactive API documentation generator and REST client supporting OpenAPI and Swagger specifications.", es: "Generador moderno e interactivo de documentación de APIs y cliente REST compatible con OpenAPI y Swagger." } },
+  { name: "AnyHook", url: "https://anyhook.net", category: "api", tags: ["webhooks", "retries", "logs"], description: { en: "Take delivery of inbound webhooks without running your own endpoint: retries, event log and replay.", es: "Recibe webhooks entrantes sin montar tu propio endpoint: reintentos, registro de eventos y reenvío." } },
 
   // Design
   { name: "Figma", url: "https://www.figma.com", category: "design", featured: true, tags: ["ui", "prototype", "collaboration"], description: { en: "Collaborative interface design, prototyping and developer handoff.", es: "Diseño de interfaces, prototipado y handoff colaborativo." } },
