@@ -12,6 +12,7 @@ export type AccessRequirement =
 export const accessRequirements: Partial<Record<string, AccessRequirement>> = {
   "Deno Deploy": "card-for-full-limits",
   "Northflank": "card-for-full-limits",
+  "Azure DevOps": "card-for-full-limits",
   "Pollinations.AI": "no-signup",
   "Uptime.com": "trial-only",
   "DummyJSON": "no-signup",
@@ -115,6 +116,7 @@ export const freeTiers: Record<string, LocalizedFreeTier> = {
   "Dependabot": { en: "Free inside GitHub for dependency alerts, security updates and version-update pull requests.", es: "Gratis dentro de GitHub para alertas, parches de seguridad y pull requests de actualización." },
   "CodeRabbit": { en: "Free: unlimited public and private repositories, PR summaries and limited reviews in IDE/CLI; open source gets Pro+ features.", es: "Gratis: repos públicos y privados ilimitados, resúmenes de PR y revisiones limitadas en IDE/CLI; open source recibe funciones Pro+." },
   "Jules": { en: "Free: 15 coding tasks/day, up to 3 concurrent tasks, powered by Gemini 2.5 Pro.", es: "Gratis: 15 tareas de programación/día, hasta 3 tareas simultáneas y Gemini 2.5 Pro." },
+  "Azure DevOps": { en: "Free for 5 users: unlimited private Git repos, Azure Boards, 1 self-hosted job and 2 GiB Artifacts storage; 1 Microsoft-hosted job (1,800 min/month) after linking an Azure subscription.", es: "Gratis para 5 usuarios: repos Git privados ilimitados, Azure Boards, 1 job self-hosted y 2 GiB de Artifacts; 1 job hospedado por Microsoft (1.800 min/mes) tras vincular una suscripción de Azure." },
 
   "PostHog": { en: "Free monthly: 1M analytics events, 5k session recordings, 1M feature-flag requests and 100k exceptions.", es: "Gratis al mes: 1 M de eventos, 5.000 grabaciones, 1 M de peticiones de flags y 100.000 excepciones." },
   "Mixpanel": { en: "Free: up to 1M monthly events with unlimited reports, core product analytics and limited session replay.", es: "Gratis: hasta 1 M de eventos/mes con informes ilimitados, analítica de producto y replay limitado." },
